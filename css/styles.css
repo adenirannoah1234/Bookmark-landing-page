@@ -64,6 +64,19 @@ nav{
     border: none;
     border-radius: 5px;
 }
+.minfobtn{
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.divbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
 .fire{
     color: black;
     padding: 10px 35px;
@@ -223,6 +236,10 @@ nav{
     margin: 0 auto;
     width: 40%;
 }
+.tabbtn1 , .tabbtn2 , .tabbtn3{
+    border: none;
+    background-color: white;
+}
 .text1 p{
     color: hsl(227, 12%, 61%);
     margin-top: 20px;
@@ -232,10 +249,10 @@ nav{
     color:hsl(228, 39%, 23%);
 }
 
-.question3{
+.question3 , .question2 , .question4 , .question5{
     display: flex;
     align-items: center;
-    gap: 11.5rem;
+    justify-content: space-between;
     width: 37%;
     margin: 0 auto;
 }
@@ -415,6 +432,24 @@ nav{
     .rowd{
         display: none;
     }
+    .chrome{
+        background-color: hsl(231, 69%, 60%);
+        color: white;
+        padding: 10px 25px;
+        border: none;
+        border-radius: 5px;
+    }
+    .fire{
+        color: black;
+        padding: 10px 25px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px rgb(207, 207, 207);
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    
+    
  }
  @media screen and (max-width: 576px){
    #second-section{
