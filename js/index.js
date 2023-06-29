@@ -45,7 +45,7 @@ openNav.addEventListener("click", function() {
 
 closeNav.addEventListener("click", function() {
 
-    navList.style.top = "-40%"
+    navList.style.top = "-20%"
 
     openNav.style.display = "block"
 

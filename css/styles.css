@@ -491,7 +491,7 @@ nav{
 .row1{
     display: none;
 }
-.bookmark{
+.bookmark , .bookmark2 , .bookmark3{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -589,9 +589,9 @@ justify-content: center;
     flex-direction: column;
     background-color: #fff;
     position: fixed;
-    top: -50%;
+    top: -20%;
     left: 50%;
-    width: 40%;
+    width: 50%;
     padding: 30px;
     text-align: center;
     transform: translate(-50%,-50%); 
@@ -599,5 +599,51 @@ justify-content: center;
     transition: .5s;
 } 
 
-
+}
+@media screen and (max-width: 480px){
+    #second-section{
+        padding: 20px;
+    }
+    .parent1{
+        width: 80%;
+    }
+    .features{
+        margin-top: 80px;
+    }
+    .features p{
+        width: 80%;
+    }
+    .bkdiv{
+        width: 100%;
+    }
+    .text{
+        width: 75%;
+    }
+    .question3{
+        width: 100%;
+    }
+    .question3{
+        font-size: 13px;
+    }
+    .frow , .frow1{
+        width: 100%;
+    }
+    .ans3{
+        width: 100%;
+    }
+    .contact h1{
+        width: 100%;
+    }
+    .contact p{
+        letter-spacing: 0.1em;
+    }
+    .email{
+        width: 60%;
+    }
+    .small{
+        width: 60%;
+    }
+    .text1{
+        width: 80%;
+    }
 }
