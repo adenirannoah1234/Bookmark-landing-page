@@ -27,4 +27,43 @@ faqs.forEach(faq=>{
         faq.classList.toggle('imagerotate')
     })
 })
+const openNav = document.querySelector(".ri-menu-line");
+
+const closeNav = document.querySelector(".ri-close-circle-line");
+
+const navList = document.querySelector(".list1");
+
+openNav.addEventListener("click", function() {
+
+    navList.style.top = "40%"
+
+    openNav.style.display = "none"
+
+    closeNav.style.display = "block"
+
+})
+
+closeNav.addEventListener("click", function() {
+
+    navList.style.top = "-40%"
+
+    openNav.style.display = "block"
+
+    closeNav.style.display = "none"
+
+})
+
+document.querySelectorAll(".list1 a").forEach(navLink => {
+
+    navLink.addEventListener("click", function() {
+
+        navList.style.top = "-40%"
+
+        openNav.style.display = "block"
+
+        closeNav.style.display = "none"
+
+    })
+
+})
 
