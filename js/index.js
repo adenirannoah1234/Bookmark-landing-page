@@ -45,7 +45,7 @@ openNav.addEventListener("click", function() {
 
 closeNav.addEventListener("click", function() {
 
-    navList.style.top = "-20%"
+    navList.style.top = "-40%"
 
     openNav.style.display = "block"
 
@@ -66,4 +66,5 @@ document.querySelectorAll(".list1 a").forEach(navLink => {
     })
 
 })
-
+ src="https://unpkg.com/aos@next/dist/aos.js"
+AOS.init();
