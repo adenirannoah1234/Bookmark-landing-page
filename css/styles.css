@@ -504,9 +504,9 @@ nav{
 .features h1{
     font-size: 1.5rem;
 }
-.row{
+/* .row{
     display: none;
-}
+} */
 .rowd{
     display: flex;
     flex-direction: column;
@@ -520,12 +520,12 @@ nav{
     border: none;
     background-color: white;
 }
-.row2{
+/* .row2{
     display: none;
 }
 .row1{
     display: none;
-}
+} */
 .bookmark , .bookmark2 , .bookmark3{
     display: flex;
     flex-direction: column;
@@ -624,7 +624,7 @@ justify-content: center;
     flex-direction: column;
     background-color: #fff;
     position: fixed;
-    top: -20%;
+    top: -70%;
     left: 50%;
     width: 50%;
     padding: 30px;
@@ -633,6 +633,12 @@ justify-content: center;
     box-shadow: 5px 5px 10px rgb(207, 207, 207);
     transition: .5s;
 } 
+.toggler{
+    display: flex;
+}
+.ri-menu-line{
+    display: flex;
+}
 
 }
 @media screen and (max-width: 480px){
@@ -680,5 +686,18 @@ justify-content: center;
     }
     .text1{
         width: 80%;
+    }
+}
+@media screen and (max-width: 375px){
+    .chrome{
+        padding: 10px 10px;
+    }
+    .features p{
+        width: 100%;
+        text-align: center;
+    }
+    .bookmark p , .bookmark2 p , .bookmark3 p{
+        width: 100%;
+        text-align: center;
     }
 }

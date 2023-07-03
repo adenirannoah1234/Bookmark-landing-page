@@ -32,7 +32,7 @@
         </nav>
     </section>
     <section id="second-section">
-        <div class="parent1"> 
+        <div class="parent1" data-aos="zoom-in-up"> 
             <h1>A Simple Bookmark Manager</h1>
             <p>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free</p>
             <div class="second-btn">
@@ -43,30 +43,20 @@
       <img class="image1"   src="images/illustration-hero.svg" alt="">
     </section>
     <section id="feature">
-        <div class="features">
+        <div class="features" data-aos="zoom-in-up" >
             <h1>Features</h1>
             <p>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go</p>
         </div>
-        <div class="row">
+        <div class="row" data-aos="zoom-in-up">
             <button class="tabbtn1">Simple Bookmarking</button>
             <button class="tabbtn2">Speedy Searching</button>
             <button class="tabbtn3">Easy Sharing</button>
         </div>
-        <hr  class="row2">
-        <hr class="row1">
-        <div class="rowd">
-            <hr class="row3">
-            <button class="tabbtn1">Simple Bookmarking</button>
-            <!-- <hr  class="row2"> -->
-            <hr class="row3">
-            <button class="tabbtn2">Speedy Searching</button>
-            <hr class="row3">
-            <button class="tabbtn3">Easy Sharing</button>
-            <hr class="row3">
-        </div>
+        <hr  class="row2" data-aos="zoom-in-up">
+        <hr class="row1" data-aos="zoom-in-up">
     </section>
     <section id="bookmark">
-        <div class="bookmark">
+        <div class="bookmark" data-aos="zoom-in-up">
             <img  class="image2" src="images/illustration-features-tab-1.svg" alt="">
             <div class="bkdiv">
                 <h1>Bookmark in one click</h1>
@@ -92,11 +82,11 @@
         </div> 
     </section>
     <section id="download">
-         <div class="text">
+         <div class="text" data-aos="zoom-in-up">
             <h1>Download the extension</h1>
             <p>we've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
          </div>
-         <div class="download1">
+         <div class="download1" data-aos="zoom-in-up">
             <div class="download2">
                 <img class="image3" src="images/logo-chrome.svg" alt="">
                 <h1>Add to Chrome</h1>
@@ -121,7 +111,7 @@
          </div>
     </section>
     <section id="questions">
-          <div class="question1">
+          <div class="question1" data-aos="zoom-in-up">
             <div class="text1">
                 <h1>Frequently Asked Questions</h1>
                 <p>Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.</p>
@@ -166,7 +156,7 @@
           </div>
      </section>
     <seectio id="contacts">
-        <div class="contact">
+        <div class="contact" data-aos="zoom-in-up">
             <p>35,000+ ALREADY JOINED</p>
             <h1>Stay up-to-date with what we're doing</h1>
                <input type="email" class="email" placeholder="Enter your email address" required="">
@@ -191,5 +181,9 @@
         </div>
     </section>
     <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

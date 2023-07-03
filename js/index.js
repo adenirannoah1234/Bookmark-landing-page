@@ -66,5 +66,4 @@ document.querySelectorAll(".list1 a").forEach(navLink => {
     })
 
 })
- src="https://unpkg.com/aos@next/dist/aos.js"
 AOS.init();
