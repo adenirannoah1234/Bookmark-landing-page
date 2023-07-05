@@ -35,7 +35,7 @@ const navList = document.querySelector(".list1");
 
 openNav.addEventListener("click", function() {
 
-    navList.style.top = "40%"
+    navList.style.top = "250px"
 
     openNav.style.display = "none"
 
@@ -45,7 +45,7 @@ openNav.addEventListener("click", function() {
 
 closeNav.addEventListener("click", function() {
 
-    navList.style.top = "-40%"
+    navList.style.top = "-200px"
 
     openNav.style.display = "block"
 
@@ -57,7 +57,7 @@ document.querySelectorAll(".list1 a").forEach(navLink => {
 
     navLink.addEventListener("click", function() {
 
-        navList.style.top = "-40%"
+        navList.style.top = "-200px"
 
         openNav.style.display = "block"
 
@@ -66,4 +66,3 @@ document.querySelectorAll(".list1 a").forEach(navLink => {
     })
 
 })
-AOS.init();
