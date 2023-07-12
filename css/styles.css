@@ -283,6 +283,7 @@ nav{
 }
 .question1 img{
     margin-top: 20px;
+    cursor: pointer;
 }
 #contacts{
     text-align: center;
