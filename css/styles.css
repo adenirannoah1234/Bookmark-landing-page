@@ -122,7 +122,6 @@ nav{
 }
 .bookmark , .bookmark2 , .bookmark3{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     gap: 5rem;
@@ -131,12 +130,6 @@ nav{
 .image2{
     width: 50%;
 }
-/* .bookmark , .bookmark2 .bookmark3{
-    width: 100%;
-} */
- .bookmark2 , .bookmark3{
-    display: none;
-} 
  .infobtn2 , .infobtn3{
     padding: 10px 35px;
     background-color: hsl(231, 69%, 60%);
@@ -163,6 +156,9 @@ nav{
     font-size: 2rem;
     color:hsl(228, 39%, 23%);
     font-weight: 700;
+}
+.bookmark2 , .bookmark3{
+    display: none;
 }
 .bookmark p , .bookmark2 p , .bookmark3 p{
     color: hsl(227, 12%, 61%);
@@ -364,9 +360,6 @@ nav{
         padding-bottom: 22px;
         margin-right: 20px;
     }
-    /* .bookmark2 , .bookmark3{
-        display: none;
-    } */
     #second-section{
         padding: 20px 20px 20px 50px
     }
@@ -385,6 +378,7 @@ nav{
     .bookmark, .bookmark2, .bookmark3{
         padding: 30px;
     }
+    
     nav{
         padding: 50px 190px 60px 60px;
     }
@@ -421,15 +415,9 @@ nav{
         justify-content: center;
         gap: 2rem;
     } */
-    /* .bookmark2 , .bookmark3{
-        display: none !important;
-    } */
     .bookmark h1, .bookmark2 h1, .bookmark3 h1{
         font-size: 1.5rem;
     }
-    /* .download2, .download4, .download3{
-        width: 500px;
-    } */
     .rowd{
         display: none;
     }
@@ -515,21 +503,11 @@ nav{
     border: none;
     background-color: white;
 }
-/* .row2{
-    display: none;
-}
-.row1{
-    display: none;
-} */
 .bookmark , .bookmark2 , .bookmark3{
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-    gap: 5rem;
-    justify-content: space-between;
-}
+    gap: 1.5rem;
+} 
 .bkdiv , .text{
     width: 70%;
 }
@@ -631,9 +609,9 @@ justify-content: center;
 .toggler{
     display: block;
 }
-/* .ri-menu-line{
-    display: fl;
-} */
+.image2bk{
+    width: 100%;
+}
 .ri-close-circle-line{
     display: none;
 }
@@ -686,6 +664,12 @@ nav{
     }
     .text1{
         width: 80%;
+    }
+    nav{
+        padding-top: 0;
+    }
+    .logo1{
+        margin-top: 30px;
     }
 }
 @media screen and (max-width: 375px){
